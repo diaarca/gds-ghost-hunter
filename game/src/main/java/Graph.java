@@ -9,9 +9,7 @@ public class Graph {
         n_ = nbNode;
         edges_ = adjacencyMatrix;
 
-        neighbors_ =
-            (ArrayList<Integer>[]) new ArrayList[n_]; // Cast to
-                                                      // ArrayList<Integer>[]
+        neighbors_ = new ArrayList[n_];
 
         for (int i = 0; i < n_; i++) {
             neighbors_[i] = new ArrayList<Integer>();
