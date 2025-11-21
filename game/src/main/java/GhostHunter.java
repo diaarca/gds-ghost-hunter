@@ -35,6 +35,7 @@ public class GhostHunter {
             graph = new Graph(c);
             nbVertices = graph.getN();
             System.out.println("NEW GRAPH\n" + graph);
+            randTotal = nextVertexTotal = 0;
 
             newGuess = (int)(Math.random() * nbVertices);
             game = new Game(graph);
