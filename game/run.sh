@@ -27,4 +27,4 @@ export CLASSPATH="./target/classes/:$CP_HOME/lib/ILOG.CP.jar:$CPLEX_HOME/lib/cpl
 export DYLD_LIBRARY_PATH="$JOINED_PATHS"
 
 # Run Java with all necessary parameters
-java "$CLASSNAME"
+java "$CLASSNAME" $2

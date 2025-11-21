@@ -31,6 +31,10 @@ public class Game {
         return res;
     }
 
+    public void resetGhostPos() {
+        ghostPosition_ = (int)(Math.random() * graph_.getN());
+    }
+
     public String toString() {
         String str = "Game state:\nGraph: " + graph_;
         str += "The ghost is on vertex " + ghostPosition_;
