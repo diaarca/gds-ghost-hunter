@@ -1,7 +1,38 @@
+import java.util.ArrayList;
+
 public class GhostHunter {
+
+    // private static void mutipleExecution(String type, String generator) {
+    // }
+    //
+    // private static ArrayList<Integer> singleExecution(Graph g) {
+    //
+    // }
+    //
+    // private static int singlePolicy(Game game) {
+    //
+    // }
+
     public static void main(String[] args) {
 
         Graph graph;
+
+        // switch (args[0]) {
+        //     case "FROM":
+        //         graph = new Graph(args[1]);
+        //         break;
+        //     case "GEN_N_CYCLE":
+        //         graph = Graph.genNCycle(Integer.parseInt(args[1]));
+        //         break;
+        //     case "GEN_N_COMPLETE":
+        //         // graph = genNCOmplete(Integer.parseInt(args[1]));
+        //         break;
+        //     default:
+        //         break;
+        // }
+
+        // if (args.length < 2)
+        //     System.out.println("Usage: java GhostHunter graph_creation option");
 
         // if (args.length > 0) {
         //     String filename = args[0];
@@ -32,7 +63,7 @@ public class GhostHunter {
 
         for (int c : config) {
 
-            graph = new Graph(c);
+            graph = Graph.genNCycle(c);
             nbVertices = graph.getN();
             System.out.println("NEW GRAPH\n" + graph);
             randTotal = nextVertexTotal = 0;

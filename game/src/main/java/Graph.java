@@ -29,26 +29,12 @@ public class Graph {
         }
     }
 
-    public Graph(int cycleLenght) {
-        n_ = cycleLenght;
-
-        edges_ = new Boolean[n_][n_];
-        neighbors_ = new ArrayList[n_];
-
-        int prev, next;
-
-        for (int i = 0; i < n_; i++) {
-            prev = i == 0 ? (n_ - 1) : (i - 1) % n_;
-            next = (i + 1) % n_;
-
-            Arrays.fill(edges_[i], Boolean.FALSE);
-            edges_[i][prev] = true;
-            edges_[i][next] = true;
-
-            neighbors_[i] = new ArrayList<Integer>();
-            neighbors_[i].add(prev);
-            neighbors_[i].add(next);
-        }
+    public Graph(int nbNode,
+                 Boolean[][] adjacencyMatrix,
+                 ArrayList<Integer>[] neighborList) {
+        n_ = nbNode;
+        edges_ = adjacencyMatrix;
+        neighbors_ = neighborList;
     }
 
     public Graph(String filename) {
@@ -112,6 +98,30 @@ public class Graph {
             throw new RuntimeException("Error reading graph file: " + filename,
                                        e);
         }
+    }
+
+    public static Graph genNCycle(int cycleLenght) {
+        int n = cycleLenght;
+
+        Boolean[][] edges = new Boolean[n][n];
+        ArrayList<Integer>[] neighbors = new ArrayList[n];
+
+        int prev, next;
+
+        for (int i = 0; i < n; i++) {
+            prev = i == 0 ? (n - 1) : (i - 1) % n;
+            next = (i + 1) % n;
+
+            Arrays.fill(edges[i], Boolean.FALSE);
+            edges[i][prev] = true;
+            edges[i][next] = true;
+
+            neighbors[i] = new ArrayList<Integer>();
+            neighbors[i].add(prev);
+            neighbors[i].add(next);
+        }
+
+        return new Graph(n, edges, neighbors);
     }
 
     int getN() { return n_; }
