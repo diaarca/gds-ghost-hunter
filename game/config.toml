@@ -1,0 +1,15 @@
+# Number of simulations to run
+nbSimu = 10
+
+# Policy to use for the ghost hunter
+policy = "RANDOM"
+
+# Execution type
+execType = "FAMILY"
+
+# Graph configuration
+[graphConfig]
+graphType = "N_K_REGULAR"
+filename = ""
+N = 6
+K = 3
