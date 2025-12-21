@@ -12,4 +12,10 @@ Below the accepted values for this parameter:
 - "UP_TO_SIZE": the framework will repeat `nbSimu` times the experiment with the given `policy` over all constructed graph with the given `graphType` from 3 vertices up to `N` vertices (works on `graphType` = "N_CYCLE", "N_COMP")
 - "FAMILY": the framework will repeat `nbSimu` times the `policy` over all constructed graphs with the given `graphType` in the family (works on `graphType` = "N_K_REGULAR")
 4. `graphType`: the type of graph to be constructed for the experiment:
-- "N_CYCLE": correspond to a cycle with N vertices ![5_CYCLE](images/5_cycle.png)
+- "N_CYCLE": correspond to a cycle with N vertices
+There is a 5_CYCLE: ![5_CYCLE](images/5_cycle.png)
+- "N_COMP": correspond to a complete graph with N vertices
+There is a 5_COMP: ![5_COMP](images/5_comp.png)
+- "N_K_REGULAR": correspond to a K regular graph with N vertices
+There is a 6_3_REGULAR: ![6_3_REGULAR](images/6_3_regular.png)
+
