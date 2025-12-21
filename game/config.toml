@@ -1,15 +1,19 @@
+# All informations about the simulator configuration are described in the
+# README.md
+
 # Number of simulations to run
-nbSimu = 10
+nbSimu = 1000
 
-# Policy to use for the ghost hunter
-policy = "RANDOM"
+# Policy to use for the ghost hunter (RANDOM, NEXT_VERTEX)
+policy = "NEXT_VERTEX"
 
-# Execution type
-execType = "FAMILY"
+# Execution type (SINGLE, UP_TO_SIZE, FAMILY)
+execType = "UP_TO_SIZE"
 
 # Graph configuration
 [graphConfig]
-graphType = "N_K_REGULAR"
-filename = ""
+# Graph type (N_CYCLE, N_COMP, N_K_REGULAR, FROM_FILE)
+graphType = "FROM_FILE"
+filename = "graphs/3_clique.txt"
 N = 6
 K = 3

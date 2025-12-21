@@ -8,7 +8,32 @@ public class GraphConfig {
         graphType_ = graphType;
         filename_ = filename;
         N_ = N;
+
+        switch (graphType) {
+            case N_CYCLE:
+            case N_COMP:
+            case N_K_REGULAR:
+                if (N_ <= 0) {
+                    System.err.println("N must be positive");
+                    System.exit(1);
+                }
+                break;
+            default:
+                break;
+        }
+
         K_ = K;
+
+        switch (graphType) {
+            case N_K_REGULAR:
+                if (K_ <= 0) {
+                    System.err.println("K must be positive");
+                    System.exit(1);
+                }
+                break;
+            default:
+                break;
+        }
     }
 
     public GraphType getGraphType_() { return graphType_; }

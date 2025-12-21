@@ -3,7 +3,8 @@ import java.util.List;
 
 public class GhostHunter {
 
-    private static double randomPolicy(Game game, int nbSimu) {
+    private static double
+    randomPolicy(Game game, int nbSimu, GraphType graphType) {
         boolean end;
         int totalNbGuesses, guess, newGuess, nbVertices;
         totalNbGuesses = 0;
@@ -29,7 +30,22 @@ public class GhostHunter {
         return (double)((double)totalNbGuesses / (double)nbSimu);
     }
 
-    private static double nextVertexPolicy(Game game, int nbSimu) {
+    private static double
+    nextVertexPolicy(Game game, int nbSimu, GraphType graphType) {
+
+        switch (graphType) {
+        case N_COMP:
+        case N_K_REGULAR:
+        case FROM_FILE:
+            System.err.println(
+                "ERROR: " + graphType +
+                "graphType isn't compatible with the NEXT_VERTEX policy");
+            break;
+        case N_CYCLE:
+        default:
+            break;
+        }
+
         int totalNbGuesses, currentNbGuesses, nbVertices;
         totalNbGuesses = currentNbGuesses = 0;
 
@@ -47,9 +63,23 @@ public class GhostHunter {
         return (double)((double)totalNbGuesses / (double)nbSimu);
     }
 
-    private static double singleExecution(ExecConfig config, Graph graph)
-        throws IOException, UnsupportedOperationException,
-               IllegalArgumentException {
+    private static double singleExecution(ExecConfig config, Graph graph) {
+
+        GraphType graphType = config.getGraphConfig_().getGraphType_();
+
+        switch (graphType) {
+        case N_K_REGULAR:
+            System.err.println("ERROR: the " + graphType + " graphType isn't "
+                               + "compatible with the SINGLE execType");
+            System.exit(1);
+            break;
+        case N_CYCLE:
+        case N_COMP:
+        case FROM_FILE:
+        default:
+            break;
+        }
+
         double meanTime = -1.0;
         System.out.println(graph);
 
@@ -57,33 +87,54 @@ public class GhostHunter {
 
         switch (config.getPolicy_()) {
         case RANDOM:
-            meanTime = randomPolicy(game, config.getNbSimu_());
+            meanTime = randomPolicy(game, config.getNbSimu_(), graphType);
             break;
         case NEXT_VERTEX:
-            meanTime = nextVertexPolicy(game, config.getNbSimu_());
+            meanTime = nextVertexPolicy(game, config.getNbSimu_(), graphType);
             break;
         default:
             System.err.println("ERROR: wrong policy entered: " +
                                config.getPolicy_());
-            System.err.println("Only: RANDOM and NEXT_VERTEX are handled");
+            System.err.println(
+                "ERROR: Only RANDOM and NEXT_VERTEX are handled");
             System.exit(1);
         }
 
         return meanTime;
     }
 
-    private static void upToSizeExecution(ExecConfig config)
-        throws IOException, UnsupportedOperationException,
-               IllegalArgumentException {
+    private static void upToSizeExecution(ExecConfig config) {
+
         GraphConfig graphConfig = config.getGraphConfig_();
+
+        GraphType graphType = graphConfig.getGraphType_();
+
+        switch (graphType) {
+        case N_K_REGULAR:
+        case FROM_FILE:
+            System.err.println(
+                "ERROR: the " + graphType +
+                " graphType isn't compatible with the UP_TO_SIZE execType");
+            System.exit(1);
+            break;
+        case N_CYCLE:
+        case N_COMP:
+        default:
+            break;
+        }
+
         for (int n = 3; n <= graphConfig.getN_(); n++) {
+
             GraphConfig newGraphConfig = new GraphConfig(
                 graphConfig.getGraphType_(), graphConfig.getFilename_(), n,
                 graphConfig.getK_());
+
             ExecConfig newExecConfig =
                 new ExecConfig(newGraphConfig, config.getNbSimu_(),
                                config.getPolicy_(), config.getExecType_());
+
             Graph graph = new Graph(newExecConfig.getGraphConfig_());
+
             System.out.println(
                 "Won in average in: " + singleExecution(newExecConfig, graph) +
                 " guesses with " + config.getPolicy_() + " policy on " + n +
@@ -91,15 +142,15 @@ public class GhostHunter {
         }
     }
 
-    private static void familyExecution(ExecConfig config)
-        throws IOException, UnsupportedOperationException,
-               IllegalArgumentException {
+    private static void familyExecution(ExecConfig config) {
         List<Graph> graphFamily =
             Graph.generateGraphFamily(config.getGraphConfig_());
+
         System.out.println("Executing on a family of " + graphFamily.size() +
                            " graphs.");
 
         int graphIndex = 1;
+
         for (Graph graph : graphFamily) {
             System.out.println("--- Graph " + graphIndex++ + " ---");
             System.out.println("Won in average in: " +
@@ -110,40 +161,28 @@ public class GhostHunter {
     public static void main(String[] args) {
 
         ExecConfig execConfig = null;
-        try {
-            execConfig = new ExecConfig(args[0]);
-        } catch (IOException | IllegalArgumentException e) {
-            System.err.println("Error loading configuration file: " +
-                               e.getMessage());
-            e.printStackTrace();
-            System.exit(1);
-        }
 
-        try {
-            switch (execConfig.getExecType_()) {
-            case SINGLE:
-                Graph graph = new Graph(execConfig.getGraphConfig_());
-                System.out.println(
-                    "Won in average in: " + singleExecution(execConfig, graph) +
-                    " guesses");
-                break;
-            case UP_TO_SIZE:
-                upToSizeExecution(execConfig);
-                break;
-            case FAMILY:
-                familyExecution(execConfig);
-                break;
-            default:
-                System.err.println("ERROR: wrong execution type entered: " +
-                                   execConfig.getExecType_());
-                System.err.println("Only: SINGLE, UP_TO_SIZE and FAMILY are"
-                                   + "allowed");
-                System.exit(1);
-            }
-        } catch (IOException | UnsupportedOperationException |
-                 IllegalArgumentException e) {
-            System.err.println("Error during execution: " + e.getMessage());
-            e.printStackTrace();
+        // Load the configuration
+        execConfig = new ExecConfig(args[0]);
+
+        // Begin the experiment
+        switch (execConfig.getExecType_()) {
+        case SINGLE:
+            Graph graph = new Graph(execConfig.getGraphConfig_());
+            System.out.println("Won in average in: " +
+                               singleExecution(execConfig, graph) + " guesses");
+            break;
+        case UP_TO_SIZE:
+            upToSizeExecution(execConfig);
+            break;
+        case FAMILY:
+            familyExecution(execConfig);
+            break;
+        default:
+            System.err.println("ERROR: wrong execution type entered: " +
+                               execConfig.getExecType_());
+            System.err.println("Only: SINGLE, UP_TO_SIZE and FAMILY are"
+                               + "allowed");
             System.exit(1);
         }
     }

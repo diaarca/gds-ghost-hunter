@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
+import javax.sound.midi.SysexMessage;
 
 public class Graph {
     private int n_;
@@ -43,15 +44,13 @@ public class Graph {
         neighbors_ = neighborList;
     }
 
-    public Graph(String filename)
-        throws IOException { // Changed to throw IOException
+    public Graph(String filename) throws IOException {
         initializeFromFile(filename);
     }
 
-    public Graph(GraphConfig config) throws IOException,
-                                            UnsupportedOperationException,
-                                            IllegalArgumentException {
-        switch (config.getGraphType_()) {
+    public Graph(GraphConfig config) {
+        GraphType graphType = config.getGraphType_();
+        switch (graphType) {
         case N_CYCLE:
             initializeNCycle(config.getN_());
             break;
@@ -59,28 +58,35 @@ public class Graph {
             initializeNComp(config.getN_());
             break;
         case N_K_REGULAR:
-            throw new IllegalArgumentException(
-                "N_K_REGULAR graphs must be generated via "
-                + "generateGraphFamily method.");
+            System.err.println("ERROR: The N_K_REGULAR graphs must be "
+                               + "generated via generateGraphFamily method");
+            System.exit(1);
         case FROM_FILE:
             initializeFromFile(config.getFilename_());
             break;
         default:
-            throw new IllegalArgumentException("ERROR: unknown graph type: " +
-                                               config.getGraphType_());
+            System.err.println("ERROR: Unknown graphType = " + graphType);
+            System.exit(1);
+        }
+
+        if (!isConnected(edges_, n_)) {
+            System.err.println("ERROR: The constructed graph isn't connected");
+            System.exit(1);
         }
     }
 
-    private void initializeFromFile(String filename) throws IOException {
+    private void initializeFromFile(String filename) {
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line = br.readLine();
             if (line == null) {
-                throw new IllegalArgumentException("Empty file: " + filename);
+                System.err.println("ERROR: Empty file: " + filename);
+                System.exit(1);
             }
             line = line.trim();
             if (line.length() == 0) {
-                throw new IllegalArgumentException(
-                    "First line must contain number of vertices");
+                System.err.println("ERROR: The first line in" + filename +
+                                   "must contain the number of vertices");
+                System.exit(1);
             }
             int nbNode = Integer.parseInt(line);
             n_ = nbNode;
@@ -89,8 +95,10 @@ public class Graph {
             for (int i = 0; i < n_; i++) {
                 String row = br.readLine();
                 if (row == null) {
-                    throw new IllegalArgumentException(
-                        "Not enough adjacency rows in file: " + filename);
+                    System.err.println(
+                        "ERROR: Not enough adjacency rows in the file: " +
+                        filename);
+                    System.exit(1);
                 }
                 row = row.trim();
                 if (row.length() == 0) {
@@ -101,9 +109,10 @@ public class Graph {
                 StringTokenizer st = new StringTokenizer(row);
                 for (int j = 0; j < n_; j++) {
                     if (!st.hasMoreTokens()) {
-                        throw new IllegalArgumentException(
-                            "Adjacency row has too few tokens at line " +
-                            (i + 2));
+                        System.err.println(
+                            "Adjacency row has too few columns at line " +
+                            (i + 2) + " in the file: " + filename);
+                        System.exit(1);
                     }
                     String tok = st.nextToken();
                     if (tok.equals("1") || tok.equalsIgnoreCase("true")) {
@@ -128,7 +137,8 @@ public class Graph {
             }
 
         } catch (IOException e) {
-            throw e;
+            System.err.println("ERROR: Cannot read the file: " + filename);
+            System.exit(1);
         }
     }
 
@@ -168,11 +178,13 @@ public class Graph {
         }
     }
 
-    public static List<Graph> generateGraphFamily(GraphConfig config)
-        throws IOException {
+    public static List<Graph> generateGraphFamily(GraphConfig config) {
         switch (config.getGraphType_()) {
         case N_K_REGULAR:
             return generateNKRegularGraphs(config.getN_(), config.getK_());
+        case N_CYCLE:
+        case N_COMP:
+        case FROM_FILE:
         default:
             return Arrays.asList(new Graph(config));
         }
@@ -180,19 +192,24 @@ public class Graph {
 
     private static List<Graph> generateNKRegularGraphs(int N, int K) {
         if ((N * K) % 2 != 0) {
-            throw new IllegalArgumentException(
-                "N * K must be even to generate a k-regular graph.");
+            System.err.println(
+                "N * K must be even to generate a k-regular graph");
+            System.exit(1);
         }
         if (K >= N) {
-            throw new IllegalArgumentException("K must be less than N.");
+            System.err.println("K must be less than N");
+            System.exit(1);
         }
 
         List<Graph> solutions = new ArrayList<>();
         Boolean[][] adjMatrix = new Boolean[N][N];
+
         for (int i = 0; i < N; i++)
             Arrays.fill(adjMatrix[i], false);
+
         int[] degrees = new int[N];
         backtrackGenerate(0, 1, N, K, adjMatrix, degrees, solutions);
+
         return solutions;
     }
 
@@ -203,7 +220,8 @@ public class Graph {
                                           Boolean[][] adj,
                                           int[] degrees,
                                           List<Graph> solutions) {
-        if (u == N - 1) { // Base case: all edges considered
+        // Base case: all edges considered
+        if (u == N - 1) {
             boolean isKRegular = true;
             for (int deg : degrees) {
                 if (deg != K) {
@@ -242,8 +260,10 @@ public class Graph {
     }
 
     private static boolean isConnected(Boolean[][] adj, int N) {
+
         if (N == 0)
             return true;
+
         Queue<Integer> queue = new LinkedList<>();
         boolean[] visited = new boolean[N];
         int startNode = 0;
@@ -261,6 +281,7 @@ public class Graph {
                 }
             }
         }
+
         return count == N;
     }
 

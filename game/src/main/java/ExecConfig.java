@@ -15,8 +15,8 @@ public class ExecConfig {
         if (graphConfig.getGraphType_() == GraphType.N_K_REGULAR &&
             execType != ExecType.FAMILY) {
             throw new IllegalArgumentException(
-                "N_K_REGULAR graph type is only allowed with FAMILY " +
-                "execution type.");
+                "N_K_REGULAR graph type is only allowed with FAMILY "
+                + "execution type.");
         }
         graphConfig_ = graphConfig;
         nbSimu_ = nbSimu;
@@ -24,10 +24,12 @@ public class ExecConfig {
         execType_ = execType;
     }
 
-    public ExecConfig(String filePath) throws IOException {
+    public ExecConfig(String filePath) {
         File configFile = new File(filePath);
+
         if (!configFile.exists()) {
-            throw new IOException("Configuration file not found: " + filePath);
+            System.err.println("Configuration file not found: " + filePath);
+            System.exit(1);
         }
 
         Toml toml = new Toml().read(configFile);
@@ -35,8 +37,9 @@ public class ExecConfig {
         // Load graphConfig
         Toml graphConfigToml = toml.getTable("graphConfig");
         if (graphConfigToml == null) {
-            throw new IOException(
-                "Missing [graphConfig] table in configuration file.");
+            System.err.println(
+                "Missing [graphConfig] table in configuration file");
+            System.exit(1);
         }
 
         GraphType graphType = GraphType.valueOf(
@@ -45,9 +48,9 @@ public class ExecConfig {
             ExecType.valueOf(toml.getString("execType").toUpperCase());
 
         if (graphType == GraphType.N_K_REGULAR && execType != ExecType.FAMILY) {
-            throw new IllegalArgumentException(
-                "N_K_REGULAR graph type is only allowed with FAMILY " +
-                "execution type.");
+            System.err.println("N_K_REGULAR graph type is only allowed with "
+                               + "FAMILY execution type");
+            System.exit(1);
         }
 
         this.graphConfig_ =
@@ -56,8 +59,14 @@ public class ExecConfig {
                             graphConfigToml.getLong("K", 0L).intValue());
 
         this.nbSimu_ = toml.getLong("nbSimu").intValue();
+
         this.policy_ = Policy.valueOf(toml.getString("policy").toUpperCase());
         this.execType_ = execType;
+
+        if (nbSimu_ <= 0) {
+            System.err.println("nbSimu must be a positive integer");
+            System.exit(1);
+        }
     }
 
     public GraphConfig getGraphConfig_() { return graphConfig_; }
