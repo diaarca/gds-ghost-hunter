@@ -27,4 +27,20 @@ There is a 5_COMP:
 There is a 6_3_REGULAR:
 
 ![6_3_REGULAR](images/6_3_regular.png)
+- "FROM_FILE": correspond to a graph loaded from the given filename with the number of vertices and then the adjacency matrix (the graph must be connected):
+
+There is a 7_CYCLE described in a file:
+```
+7
+0 1 0 0 0 0 1
+1 0 1 0 0 0 0
+0 1 0 1 0 0 0
+0 0 1 0 1 0 0
+0 0 0 1 0 1 0
+0 0 0 0 1 0 1
+1 0 0 0 0 1 0
+```
+5. `filename`: the path the file from which you want to load the graph (works with any `graphType` but ignored if != "FROM_FILE")
+6. `N`: the number of vertices of the graph you want to construct, or if used with `execType` = "UP_TO_SIZE" correspond to the maximum constructed graph size (works with any `graphType` but ignored if = "FROM_FILE")
+7. `K`: the second parameter for graph construction (works with any `graphType` but ignored if != "N_K_REGULAR")
 
