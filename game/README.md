@@ -14,11 +14,17 @@ Below the accepted values for this parameter:
 4. `graphType`: the type of graph to be constructed for the experiment:
 - "N_CYCLE": correspond to a cycle with N vertices
 
-There is a 5_CYCLE: ![5_CYCLE](images/5_cycle.png)
+There is a 5_CYCLE:
+
+![5_CYCLE](images/5_cycle.png)
 - "N_COMP": correspond to a complete graph with N vertices
 
-There is a 5_COMP: ![5_COMP](images/5_comp.png)
+There is a 5_COMP:
+
+![5_COMP](images/5_comp.png)
 - "N_K_REGULAR": correspond to a K regular graph with N vertices
 
-There is a 6_3_REGULAR: ![6_3_REGULAR](images/6_3_regular.png)
+There is a 6_3_REGULAR:
+
+![6_3_REGULAR](images/6_3_regular.png)
 
