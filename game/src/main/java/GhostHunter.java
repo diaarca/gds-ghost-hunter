@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.List;
 
 public class GhostHunter {
@@ -34,6 +33,7 @@ public class GhostHunter {
     nextVertexPolicy(Game game, int nbSimu, GraphType graphType) {
 
         switch (graphType) {
+        case N_CONN:
         case N_COMP:
         case N_K_REGULAR:
         case FROM_FILE:
@@ -67,18 +67,19 @@ public class GhostHunter {
 
         GraphType graphType = config.getGraphConfig_().getGraphType_();
 
-        switch (graphType) {
-        case N_K_REGULAR:
-            System.err.println("ERROR: the " + graphType + " graphType isn't "
-                               + "compatible with the SINGLE execType");
-            System.exit(1);
-            break;
-        case N_CYCLE:
-        case N_COMP:
-        case FROM_FILE:
-        default:
-            break;
-        }
+        // switch (graphType) {
+        // case N_K_REGULAR:
+        //     System.err.println("ERROR: the " + graphType + " graphType isn't "
+        //                        + "compatible with the SINGLE execType");
+        //     System.exit(1);
+        //     break;
+        // case N_CONN:
+        // case N_CYCLE:
+        // case N_COMP:
+        // case FROM_FILE:
+        // default:
+        //     break;
+        // }
 
         double meanTime = -1.0;
         System.out.println(graph);
@@ -117,6 +118,7 @@ public class GhostHunter {
                 " graphType isn't compatible with the UP_TO_SIZE execType");
             System.exit(1);
             break;
+        case N_CONN:
         case N_CYCLE:
         case N_COMP:
         default:

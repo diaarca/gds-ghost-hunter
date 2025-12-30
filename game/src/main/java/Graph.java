@@ -61,6 +61,10 @@ public class Graph {
             System.err.println("ERROR: The N_K_REGULAR graphs must be "
                                + "generated via generateGraphFamily method");
             System.exit(1);
+        case N_CONN:
+            System.err.println("ERROR: The N_CONN graphs must be "
+                               + "generated via generateGraphFamily method");
+            System.exit(1);
         case FROM_FILE:
             initializeFromFile(config.getFilename_());
             break;
@@ -182,11 +186,50 @@ public class Graph {
         switch (config.getGraphType_()) {
         case N_K_REGULAR:
             return generateNKRegularGraphs(config.getN_(), config.getK_());
+        case N_CONN:
+            return generateNConnGraphs(config.getN_());
         case N_CYCLE:
         case N_COMP:
         case FROM_FILE:
         default:
             return Arrays.asList(new Graph(config));
+        }
+    }
+
+    private static List<Graph> generateNConnGraphs(int N) {
+        List<Graph> solutions = new ArrayList<>();
+        combGenerate(N,solutions);
+        return solutions;
+    }
+
+private static void combGenerate(int N, List<Graph> solutions) {
+        // This loops through all possible combinations of edges:
+        // For N=4: 6 (N * (N - 1) / 2) possible edges, so i goes from 0 to 63 (2^6 - 1)
+        // Each value of i represents a different graph; SO AFTER N=8 OVERFLOW use long
+        // Each bit in i represents whether a specific edge exists
+        int possibleGraph = (int)Math.pow(2, N * (N - 1) / 2);
+        for (int i = 0; i < possibleGraph; i++) {
+            Boolean[][] newAdj = new Boolean[N][N];
+            for (int x = 0; x < N; x++)
+                Arrays.fill(newAdj[x], false);
+
+            int idx = 0;
+            for (int x = 0; x < N; x++) {
+                for (int y = x + 1; y < N; y++) {
+                    /*
+                    idx 0: (0,1);idx 1: (0,2);idx 2: (0,3);idx 3: 
+                    (1,2);idx 4: (1,3);idx 5: (2,3)
+                    ALL THE POSSIBLE EDGES FOR N=4
+                    */
+                    if ((i & (1 << idx)) != 0) {
+                        newAdj[x][y] = newAdj[y][x] = true;
+                    }
+                    idx++;
+                }
+            }
+            if (isConnected(newAdj, N)) {
+                solutions.add(new Graph(N, newAdj));
+            }
         }
     }
 

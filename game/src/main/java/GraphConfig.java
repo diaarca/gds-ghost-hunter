@@ -10,6 +10,7 @@ public class GraphConfig {
         N_ = N;
 
         switch (graphType) {
+            case N_CONN:
             case N_CYCLE:
             case N_COMP:
             case N_K_REGULAR:

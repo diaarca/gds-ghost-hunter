@@ -1,17 +1,17 @@
 # Ghost Hunter Simulator
 
-This java implementation aims to simulate the `Ghost Hunter` game with multiple parameters. The goal is to allow anyone to confirm conjectures and observations on graphs (be aware, this not a theorem prover). In any case, the framework will give you the average number of round needed in order to finish a game for each experiment graph.
+This java implementation aims to simulate the `Ghost Hunter` game with multiple parameters. The goal is to allow anyone to confirm conjectures and observations on graphs (be aware, this not a tool to prove). In any case, the framework will give you the average number of round needed in order to finish a game for each experiment graph.
 
-In order to configure your execution, you have a `config.toml` file as a configuration template. In this file you will found the following parameters:
+In order to configure your execution, you have a `config.toml` file as a configuration template. In this file you will find the following parameters:
 
 1. `nbSimu`: a natural positive integer which describe the number of time you want to repeat your execution.
 2. `policy`: the hunter strategy to use in order to chase the ghost over the graph.s.
    Below the accepted values for this parameter:
 
-- "RANDOM": the hunter will choose eat each round any vertex of the graph except the previous one (works on any `graphType` and any `execType`)
-- "NEXT_VERTEX": the hunter will choose the vertex in a direction until he find the hunter (works on `graphType` = "N_CYCLE")
+- "RANDOM": the hunter will choose at each round any vertex of the graph except the previous one (works on any `graphType` and any `execType`)
+- "NEXT_VERTEX": the hunter will choose the vertex in a direction until he finds the ghost (works on `graphType` = "N_CYCLE")
 
-3. `execType`: the execution type to apply over these ones:
+3. `execType`: the execution types are:
 
 - "SINGLE": the framework will repeat `nbSimu` times the experiment with the given `policy` over the given `graphType` (works on `graphType` = "N_CYCLE", "N_COMP" and "FROM_FILE")
 - "UP_TO_SIZE": the framework will repeat `nbSimu` times the experiment with the given `policy` over all constructed graph with the given `graphType` from 3 vertices up to `N` vertices (works on `graphType` = "N_CYCLE", "N_COMP")
@@ -31,7 +31,7 @@ There is a 5_COMP:
 
 ![5_COMP](images/5_comp.png)
 
-- "N_K_REGULAR": correspond to a K regular graph with N vertices (N\*K must be a pair numbmer)
+- "N_K_REGULAR": correspond to a K regular graph with N vertices (N\*K must be pair number)
 
 There is a 6_3_REGULAR:
 
