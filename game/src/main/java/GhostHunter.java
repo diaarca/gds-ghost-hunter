@@ -1,25 +1,74 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class GhostHunter {
 
-    private static double
-    randomPolicy(Game game, int nbSimu, GraphType graphType) {
+    private static double randomPolicy(Game game, int nbSimu) {
         boolean end;
         int totalNbGuesses, guess, newGuess, nbVertices;
         totalNbGuesses = 0;
-        guess = -1;
 
         nbVertices = game.getGraph().getN();
-
-        newGuess = (int)(Math.random() * nbVertices);
 
         for (int j = 0; j < nbSimu; j++) {
             end = false;
             game.resetGhostPos();
+            guess = newGuess = -1;
 
             while (!end) {
                 while ((newGuess = (int)(Math.random() * nbVertices)) == guess)
                     ;
+                end = game.play(newGuess) == -1;
+                guess = newGuess;
+                totalNbGuesses++;
+            }
+        }
+
+        return (double)((double)totalNbGuesses / (double)nbSimu);
+    }
+
+    private static double highDegreePrioPolicy(Game game, int nbSimu) {
+        boolean end;
+        int totalNbGuesses, sumOfDegrees, guess, newGuess, nbVertices;
+        double proba;
+        double[] probaTresholdPerVertex;
+
+        totalNbGuesses = 0;
+
+        nbVertices = game.getGraph().getN();
+        probaTresholdPerVertex = new double[nbVertices];
+
+        // computing the sum of degree over all the graph
+        sumOfDegrees = 0;
+        ArrayList<Integer>[] neighbors = game.getGraph().getNeighbors();
+        for (ArrayList<Integer> iNeighbors : neighbors) {
+            sumOfDegrees += iNeighbors.size();
+        }
+
+        // computing the proba treshold for each vertex based on their degrees
+        for (int i = 0; i < nbVertices; i++) {
+            proba = (double)neighbors[i].size() / (double)sumOfDegrees;
+            probaTresholdPerVertex[i] =
+                i > 0 ? probaTresholdPerVertex[i - 1] + proba : proba;
+        }
+
+        // execution of the nbSimu games
+        for (int j = 0; j < nbSimu; j++) {
+            end = false;
+            game.resetGhostPos();
+            guess = newGuess = -1;
+
+            while (!end) {
+                do {
+                    proba = Math.random();
+                    for (int i = 0; i < nbVertices; i++) {
+                        if (proba < probaTresholdPerVertex[i]) {
+                            newGuess = i;
+                            break;
+                        }
+                    }
+                } while (newGuess == guess);
+
                 end = game.play(newGuess) == -1;
                 guess = newGuess;
                 totalNbGuesses++;
@@ -67,20 +116,6 @@ public class GhostHunter {
 
         GraphType graphType = config.getGraphConfig_().getGraphType_();
 
-        // switch (graphType) {
-        // case N_K_REGULAR:
-        //     System.err.println("ERROR: the " + graphType + " graphType isn't "
-        //                        + "compatible with the SINGLE execType");
-        //     System.exit(1);
-        //     break;
-        // case N_CONN:
-        // case N_CYCLE:
-        // case N_COMP:
-        // case FROM_FILE:
-        // default:
-        //     break;
-        // }
-
         double meanTime = -1.0;
         System.out.println(graph);
 
@@ -88,10 +123,13 @@ public class GhostHunter {
 
         switch (config.getPolicy_()) {
         case RANDOM:
-            meanTime = randomPolicy(game, config.getNbSimu_(), graphType);
+            meanTime = randomPolicy(game, config.getNbSimu_());
             break;
         case NEXT_VERTEX:
             meanTime = nextVertexPolicy(game, config.getNbSimu_(), graphType);
+            break;
+        case HIGH_DEGREE_PRIO:
+            meanTime = highDegreePrioPolicy(game, config.getNbSimu_());
             break;
         default:
             System.err.println("ERROR: wrong policy entered: " +
@@ -111,6 +149,7 @@ public class GhostHunter {
         GraphType graphType = graphConfig.getGraphType_();
 
         switch (graphType) {
+        case N_CONN:
         case N_K_REGULAR:
         case FROM_FILE:
             System.err.println(
@@ -118,7 +157,6 @@ public class GhostHunter {
                 " graphType isn't compatible with the UP_TO_SIZE execType");
             System.exit(1);
             break;
-        case N_CONN:
         case N_CYCLE:
         case N_COMP:
         default:
@@ -140,7 +178,7 @@ public class GhostHunter {
             System.out.println(
                 "Won in average in: " + singleExecution(newExecConfig, graph) +
                 " guesses with " + config.getPolicy_() + " policy on " + n +
-                " " + graphConfig.getGraphType_());
+                " " + graphConfig.getGraphType_() + "\n");
         }
     }
 
@@ -155,8 +193,25 @@ public class GhostHunter {
 
         for (Graph graph : graphFamily) {
             System.out.println("--- Graph " + graphIndex++ + " ---");
-            System.out.println("Won in average in: " +
-                               singleExecution(config, graph) + " guesses");
+            GraphConfig gC = config.getGraphConfig_();
+            GraphType graphType = gC.getGraphType_();
+            double meanTime = singleExecution(config, graph);
+            switch (graphType) {
+            case N_K_REGULAR:
+                System.out.println("Won in average in: " + meanTime +
+                                   " guesses with " + config.getPolicy_() +
+                                   " policy on " + gC.getN_() + "," +
+                                   gC.getK_() + " " + graphType + "\n");
+                break;
+            case N_CONN:
+                System.out.println("Won in average in: " + meanTime +
+                                   " guesses with " + config.getPolicy_() +
+                                   " policy on " + gC.getN_() + " " +
+                                   graphType + "\n");
+                break;
+            default:
+                break;
+            }
         }
     }
 
@@ -171,8 +226,9 @@ public class GhostHunter {
         switch (execConfig.getExecType_()) {
         case SINGLE:
             Graph graph = new Graph(execConfig.getGraphConfig_());
-            System.out.println("Won in average in: " +
-                               singleExecution(execConfig, graph) + " guesses");
+            System.out.println(
+                "Won in average in: " + singleExecution(execConfig, graph) +
+                " guesses\n");
             break;
         case UP_TO_SIZE:
             upToSizeExecution(execConfig);

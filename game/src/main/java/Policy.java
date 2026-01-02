@@ -1,1 +1,1 @@
-public enum Policy { RANDOM, NEXT_VERTEX }
+public enum Policy { RANDOM, NEXT_VERTEX, HIGH_DEGREE_PRIO }

@@ -9,6 +9,7 @@ In order to configure your execution, you have a `config.toml` file as a configu
    Below the accepted values for this parameter:
 
 - "RANDOM": the hunter will choose at each round any vertex of the graph except the previous one (works on any `graphType` and any `execType`)
+- "HIGH_DEGREE_PRIO": the hunter will choose at each round a random vertex of the graph to guess, but here high degree vertices have a greater chance of to be choose (works on any `graphType` and any `execType`)
 - "NEXT_VERTEX": the hunter will choose the vertex in a direction until he finds the ghost (works on `graphType` = "N_CYCLE")
 
 3. `execType`: the execution types are:
@@ -36,6 +37,12 @@ There is a 5_COMP:
 There is a 6_3_REGULAR:
 
 ![6_3_REGULAR](images/6_3_regular.png)
+
+- "N_CONN": correspond to a connected graph with N vertices
+
+There is a 5_CONN:
+
+![5_CONN](images/5_conn.png)
 
 - "FROM_FILE": correspond to a graph loaded from the given filename with the number of vertices and then the adjacency matrix (the graph must be connected):
 
