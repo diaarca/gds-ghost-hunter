@@ -24,25 +24,25 @@ In order to configure your execution, you have a `config.toml` file as a configu
 
 There is a 5_CYCLE:
 
-![5_CYCLE](images/5_cycle.png)
+![5_CYCLE](images/white_5_cycle.png)
 
 - "N_COMP": correspond to a complete graph with N vertices
 
 There is a 5_COMP:
 
-![5_COMP](images/5_comp.png)
+![5_COMP](images/white_5_comp.png)
 
 - "N_K_REGULAR": correspond to a K regular graph with N vertices (N\*K must be pair number)
 
 There is a 6_3_REGULAR:
 
-![6_3_REGULAR](images/6_3_regular.png)
+![6_3_REGULAR](images/white_6_3_regular.png)
 
 - "N_CONN": correspond to a connected graph with N vertices
 
 There is a 5_CONN:
 
-![5_CONN](images/5_conn.png)
+![5_CONN](images/white_5_conn.png)
 
 - "FROM_FILE": correspond to a graph loaded from the given filename with the number of vertices and then the adjacency matrix (the graph must be connected):
 

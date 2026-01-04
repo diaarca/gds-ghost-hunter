@@ -2,10 +2,10 @@
 # README.md
 
 # Number of simulations to run
-nbSimu = 1
+nbSimu = 100000
 
 # Policy to use for the ghost hunter (RANDOM, HIGH_DEGREE_PRIO, NEXT_VERTEX)
-policy = "NEXT_VERTEX"
+policy = "RANDOM"
 
 # Execution type (SINGLE, UP_TO_SIZE, FAMILY)
 execType = "FAMILY"

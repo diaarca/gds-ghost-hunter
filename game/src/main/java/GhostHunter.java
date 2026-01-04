@@ -7,6 +7,7 @@ public class GhostHunter {
         boolean end;
         int totalNbGuesses, guess, newGuess, nbVertices;
         totalNbGuesses = 0;
+        int totalLoss = 0;
 
         nbVertices = game.getGraph().getN();
 
@@ -14,13 +15,20 @@ public class GhostHunter {
             end = false;
             game.resetGhostPos();
             guess = newGuess = -1;
+            int count = 0;
 
             while (!end) {
                 while ((newGuess = (int)(Math.random() * nbVertices)) == guess)
                     ;
+                if (count > 10){
+                    System.out.println("Lost");
+                    totalLoss++;
+                    break;
+                }
                 end = game.play(newGuess) == -1;
                 guess = newGuess;
                 totalNbGuesses++;
+                count++;
             }
         }
 

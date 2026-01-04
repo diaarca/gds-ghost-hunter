@@ -1,0 +1,10 @@
+=== FINAL SUMMARY ===
+Graph: Complete 
+N: 2
+Policy: Random
+Total executions: 100
+Simulations per execution: 100000
+Total lost simulations: 4999753
+Total won simulations: 5000247
+Overall win ratio: 50.00247%
+
