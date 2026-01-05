@@ -133,10 +133,10 @@ public class GhostHunter {
             meanTime = highDegreePrioPolicy(game, config.getNbSimu_());
             break;
         default:
-            System.err.println("ERROR: wrong policy entered: " +
-                               config.getPolicy_());
             System.err.println(
-                "ERROR: Only RANDOM and NEXT_VERTEX are handled");
+                "ERROR: wrong policy entered: " + config.getPolicy_() +
+                "\nOnly RANDOM, HIGH_DEGREE_PRIO and "
+                + "NEXT_VERTEX are handled");
             System.exit(1);
         }
 
