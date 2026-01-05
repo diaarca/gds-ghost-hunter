@@ -163,6 +163,8 @@ public class GhostHunter {
             break;
         }
 
+        double sumOfMeanTime = 0;
+
         for (int n = 3; n <= graphConfig.getN_(); n++) {
 
             GraphConfig newGraphConfig = new GraphConfig(
@@ -175,27 +177,40 @@ public class GhostHunter {
 
             Graph graph = new Graph(newExecConfig.getGraphConfig_());
 
-            System.out.println(
-                "Won in average in: " + singleExecution(newExecConfig, graph) +
-                " guesses with " + config.getPolicy_() + " policy on " + n +
-                " " + graphConfig.getGraphType_() + "\n");
+            double meanTime = singleExecution(newExecConfig, graph);
+            sumOfMeanTime += meanTime;
+
+            System.out.println("Won in average in: " + meanTime +
+                               " guesses with " + config.getPolicy_() +
+                               " policy on " + n + " " +
+                               graphConfig.getGraphType_() + "\n");
         }
+
+        System.out.println(
+            "\nWon in average: " + (sumOfMeanTime / (graphConfig.getN_() - 2)) +
+            " guesses with " + config.getPolicy_() + " policy over all " +
+            graphConfig.getGraphType_() +
+            " graphs of the UP_TO_SIZE execution");
     }
 
     private static void familyExecution(ExecConfig config) {
-        List<Graph> graphFamily =
-            Graph.generateGraphFamily(config.getGraphConfig_());
+        GraphConfig gC = config.getGraphConfig_();
+
+        List<Graph> graphFamily = Graph.generateGraphFamily(gC);
 
         System.out.println("Executing on a family of " + graphFamily.size() +
                            " graphs.");
 
         int graphIndex = 1;
 
+        double sumOfMeanTime = 0;
+
         for (Graph graph : graphFamily) {
             System.out.println("--- Graph " + graphIndex++ + " ---");
-            GraphConfig gC = config.getGraphConfig_();
             GraphType graphType = gC.getGraphType_();
             double meanTime = singleExecution(config, graph);
+            sumOfMeanTime += meanTime;
+
             switch (graphType) {
             case N_K_REGULAR:
                 System.out.println("Won in average in: " + meanTime +
@@ -213,6 +228,11 @@ public class GhostHunter {
                 break;
             }
         }
+
+        System.out.println(
+            "\nWon in average: " + (sumOfMeanTime / graphFamily.size()) +
+            " guesses with " + config.getPolicy_() + " policy over all " +
+            gC.getGraphType_() + " graphs of the FAMILY execution");
     }
 
     public static void main(String[] args) {
