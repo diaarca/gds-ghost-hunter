@@ -5,7 +5,7 @@
 nbSimu = 100000
 
 # Policy to use for the ghost hunter (RANDOM, HIGH_DEGREE_PRIO, NEXT_VERTEX)
-policy = "RANDOM"
+policy = "NEXT_VERTEX"
 
 # Execution type (SINGLE, UP_TO_SIZE, FAMILY)
 execType = "FAMILY"
@@ -15,5 +15,5 @@ execType = "FAMILY"
 # Graph type (N_CONN, N_CYCLE, N_COMP, N_K_REGULAR, FROM_FILE)
 graphType = "N_CONN"
 filename = "graphs/3_clique.txt"
-N = 4
+N = 3
 K = 2

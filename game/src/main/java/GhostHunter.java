@@ -88,7 +88,8 @@ public class GhostHunter {
         case FROM_FILE:
             System.err.println(
                 "ERROR: " + graphType +
-                "graphType isn't compatible with the NEXT_VERTEX policy");
+                " graphType isn't compatible with the NEXT_VERTEX policy");
+            System.exit(1);
             break;
         case N_CYCLE:
         default:
