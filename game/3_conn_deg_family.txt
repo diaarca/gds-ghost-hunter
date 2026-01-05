@@ -1,0 +1,35 @@
+Executing on a family of 4 graphs.
+--- Graph 1 ---
+|V| = 3 and E =
+[0 1 1]
+[1 0 0]
+[1 0 0]
+
+Won in average in: 5.156792 guesses with HIGH_DEGREE_PRIO policy on 3 N_CONN
+
+--- Graph 2 ---
+|V| = 3 and E =
+[0 1 0]
+[1 0 1]
+[0 1 0]
+
+Won in average in: 5.175888 guesses with HIGH_DEGREE_PRIO policy on 3 N_CONN
+
+--- Graph 3 ---
+|V| = 3 and E =
+[0 0 1]
+[0 0 1]
+[1 1 0]
+
+Won in average in: 5.163144 guesses with HIGH_DEGREE_PRIO policy on 3 N_CONN
+
+--- Graph 4 ---
+|V| = 3 and E =
+[0 1 1]
+[1 0 1]
+[1 1 0]
+
+Won in average in: 3.671717 guesses with HIGH_DEGREE_PRIO policy on 3 N_CONN
+
+
+Won in average: 4.79188525 guesses with HIGH_DEGREE_PRIO policy over all N_CONN graphs of the FAMILY execution

@@ -1,0 +1,7280 @@
+Executing on a family of 728 graphs.
+--- Graph 1 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.398405 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 2 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.388673 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 3 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.402573 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 4 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.339105 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 5 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 0 0]
+[0 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.407272 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 6 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.401308 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 7 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.348128 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 8 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 0 0]
+[0 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.397084 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 9 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.403751 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 10 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.355834 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 11 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.406009 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 12 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.351683 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 13 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.366693 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 14 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.319247 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 15 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.393008 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 16 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.398901 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 17 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.352156 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 18 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.408018 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 19 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.398802 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 20 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.346207 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 21 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.402243 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 22 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.357322 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 23 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.364068 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 24 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.319229 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 25 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[0 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.393833 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 26 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.396548 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 27 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.355949 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 28 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 0 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.403111 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 29 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.358619 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 30 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.362358 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 31 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.32406 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 32 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[0 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.398705 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 33 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.407294 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 34 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.347194 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 35 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.399706 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 36 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.350543 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 37 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.363265 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 38 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.321187 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 39 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 0 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.405089 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 40 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.348111 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 41 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.359176 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 42 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.321912 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 43 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.368301 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 44 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.320902 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 45 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.335862 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 46 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.307742 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 47 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 0]
+[1 0 0 1 0]
+[0 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.404081 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 48 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 0]
+[0 0 0 1 0]
+[1 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.403563 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 49 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 1 0]
+[1 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.357951 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 50 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[0 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.407066 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 51 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 0]
+[1 1 0 1 0]
+[0 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.400076 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 52 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 0]
+[1 1 0 1 0]
+[0 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.348045 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 53 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 0 1 0]
+[1 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.401049 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 54 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[1 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.366771 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 55 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 1 0]
+[1 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.362844 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 56 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 1 0]
+[1 0 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.326437 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 57 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 0]
+[0 0 0 1 0]
+[0 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.404867 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 58 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 0]
+[1 0 0 1 0]
+[0 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.404709 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 59 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 1 0]
+[0 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.360276 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 60 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 0 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.394937 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 61 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 0]
+[0 0 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.350993 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 62 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.358961 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 63 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.318132 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 64 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 1 0]
+[0 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.355495 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 65 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 1 0]
+[0 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.355004 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 66 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 1 0]
+[0 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.329839 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 67 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.348239 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 68 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.329299 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 69 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.326855 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 70 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 1 0]
+[1 1 1 0 0]
+[1 0 0 0 0]
+
+Won in average in: 5.298746 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 71 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.406182 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 72 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.405464 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 73 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.358478 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 74 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.410873 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 75 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.352039 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 76 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.415835 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 77 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.356503 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 78 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.353664 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 79 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.323575 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 80 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[0 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.401525 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 81 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.413608 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 82 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.350942 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 83 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.404235 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 84 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.362418 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 85 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.345302 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 86 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.321214 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 87 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 1]
+[0 1 0 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.400215 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 88 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.355483 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 89 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.363406 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 90 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.328565 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 91 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.356922 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 92 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.327209 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 93 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.32407 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 94 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.309309 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 95 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[0 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.401386 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 96 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.404715 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 97 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.365994 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 98 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.396808 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 99 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.35178 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 100 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.346947 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 101 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.321452 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 102 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.405387 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 103 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.349786 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 104 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.365981 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 105 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.332869 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 106 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.36876 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 107 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.320586 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 108 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.329597 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 109 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.298589 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 110 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[0 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.35629 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 111 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.360131 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 112 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.322245 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 113 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.355965 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 114 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.328319 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 115 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.313033 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 116 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 0]
+[0 1 0 0 0]
+
+Won in average in: 5.30202 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 117 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.355126 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 118 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.33241 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 119 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.325142 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 120 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.31478 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 121 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.326733 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 122 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.299839 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 123 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.307707 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 124 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 0]
+[1 1 0 0 0]
+
+Won in average in: 5.282561 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 125 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.398255 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 126 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.396209 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 127 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.349829 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 128 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.41316 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 129 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.400908 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 130 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.351049 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 131 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.407852 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 132 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.363238 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 133 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.349385 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 134 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.325881 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 135 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[0 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.409701 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 136 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.399401 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 137 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.356176 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 138 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 0]
+[0 0 0 0 1]
+[0 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.408168 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 139 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[0 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.355852 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 140 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 0 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.397387 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 141 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 0]
+[0 0 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.352842 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 142 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.360414 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 143 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.317336 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 144 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[0 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.40476 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 145 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.400068 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 146 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.344666 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 147 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.405241 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 148 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.359032 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 149 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.353906 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 150 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.327194 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 151 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 0]
+[0 1 0 0 1]
+[0 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.40431 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 152 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[0 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.364166 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 153 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.363555 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 154 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.330889 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 155 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.365685 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 156 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.329129 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 157 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.332597 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 158 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.299562 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 159 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.403347 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 160 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.403089 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 161 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.369008 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 162 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.400231 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 163 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.347853 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 164 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.359626 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 165 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.328742 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 166 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.35623 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 167 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.363584 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 168 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.327511 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 169 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.356273 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 170 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.322285 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 171 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.327272 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 172 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.301378 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 173 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[0 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.396514 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 174 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.411989 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 175 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.373045 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 176 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.400342 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 177 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.358111 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 178 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.362328 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 179 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.331051 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 180 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.389474 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 181 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.36115 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 182 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.362715 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 183 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.329989 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 184 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.369757 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 185 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.331372 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 186 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.3265 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 187 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.299395 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 188 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[0 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.350879 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 189 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.353864 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 190 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.324744 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 191 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.351005 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 192 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.321652 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 193 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.338543 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 194 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.302638 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 195 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.354316 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 196 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.327266 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 197 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.326036 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 198 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.305303 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 199 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.331044 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 200 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.303895 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 201 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.311231 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 202 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.29157 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 203 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[0 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.405554 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 204 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 0]
+[0 0 0 1 1]
+[1 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.411361 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 205 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[1 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.349883 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 206 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 0]
+[0 0 0 1 1]
+[0 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.406565 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 207 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[0 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.350795 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 208 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 0]
+[0 0 0 1 1]
+[1 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.365582 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 209 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[1 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.321495 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 210 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[0 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.400977 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 211 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.395656 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 212 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.359208 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 213 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.414229 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 214 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.365759 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 215 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.356234 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 216 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.3204 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 217 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 0]
+[0 1 0 1 1]
+[0 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.403487 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 218 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[0 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.364786 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 219 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.349447 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 220 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.326988 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 221 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.364259 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 222 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.334536 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 223 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.316693 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 224 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.311714 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 225 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[0 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.397974 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 226 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.411157 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 227 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.367212 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 228 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.396286 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 229 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.360962 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 230 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.353045 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 231 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.321407 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 232 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.402503 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 233 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.356811 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 234 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.349909 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 235 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.326258 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 236 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.35963 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 237 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.328657 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 238 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.324135 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 239 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.304694 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 240 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[0 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.351846 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 241 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.354083 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 242 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.326299 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 243 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.351718 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 244 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.31943 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 245 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.324542 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 246 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[0 0 1 0 0]
+
+Won in average in: 5.298568 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 247 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 0]
+[0 1 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.35927 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 248 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.33589 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 249 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.318535 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 250 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.307031 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 251 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.332089 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 252 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.305274 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 253 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.299326 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 254 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[1 0 1 0 0]
+
+Won in average in: 5.282796 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 255 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.412283 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 256 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.415146 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 257 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.363864 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 258 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.406558 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 259 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.359442 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 260 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.348601 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 261 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.333461 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 262 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.402295 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 263 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.350694 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 264 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.35555 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 265 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.324646 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 266 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.364717 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 267 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.332109 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 268 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.329141 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 269 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.29667 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 270 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[0 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.350733 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 271 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.353181 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 272 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.331306 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 273 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.354592 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 274 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.327755 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 275 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.322801 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 276 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.307087 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 277 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 1]
+[0 1 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.348316 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 278 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.322732 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 279 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.327924 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 280 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.304683 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 281 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.323265 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 282 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.300981 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 283 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.305018 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 284 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.283644 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 285 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[0 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.358179 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 286 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.35682 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 287 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.331044 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 288 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.365795 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 289 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.329559 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 290 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.33626 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 291 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.3056 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 292 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.366672 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 293 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.324575 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 294 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.32542 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 295 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.314134 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 296 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.341628 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 297 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.309121 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 298 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.30615 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 299 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.279919 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 300 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[0 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.319686 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 301 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.32532 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 302 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.293446 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 303 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.319727 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 304 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.306476 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 305 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.309701 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 306 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[0 1 1 0 0]
+
+Won in average in: 5.291914 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 307 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.324471 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 308 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.308221 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 309 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.30173 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 310 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.287917 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 311 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.30875 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 312 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.28905 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 313 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.290927 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 314 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 0]
+[1 1 1 0 0]
+
+Won in average in: 5.278544 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 315 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.402012 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 316 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.407437 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 317 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.34998 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 318 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.402297 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 319 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 0]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.406453 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 320 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 0]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.35629 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 321 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 0]
+[0 1 0 0 0]
+[0 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.401921 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 322 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 0]
+[1 1 0 0 0]
+[0 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.400719 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 323 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 0]
+[1 1 0 0 0]
+[0 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.35234 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 324 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 0 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.364777 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 325 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.362552 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 326 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.319083 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 327 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 0]
+[1 0 0 0 0]
+[0 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.402411 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 328 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 0]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.399917 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 329 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 0]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.35187 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 330 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 0]
+[1 0 0 0 0]
+[0 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.403015 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 331 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 0 0]
+[0 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.364322 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 332 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.358275 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 333 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.316872 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 334 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 0]
+[0 1 0 0 0]
+[0 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.391934 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 335 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 0]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.400578 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 336 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 0]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.352843 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 337 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 0]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.403546 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 338 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 0]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.35174 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 339 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 0]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.362502 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 340 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 0]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.318508 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 341 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 0]
+[0 1 0 0 0]
+[0 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.409758 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 342 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 0 0]
+[0 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.361055 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 343 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.368922 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 344 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.327593 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 345 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.34847 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 346 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.322752 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 347 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.327509 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 348 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.307079 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 349 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.410318 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 350 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.397635 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 351 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.367894 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 352 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.407027 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 353 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.353509 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 354 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.357467 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 355 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.317095 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 356 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 1]
+[0 1 0 0 0]
+[0 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.401056 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 357 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 1]
+[1 1 0 0 0]
+[0 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.404239 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 358 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 1]
+[1 1 0 0 0]
+[0 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.358283 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 359 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.395814 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 360 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.359349 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 361 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.360807 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 362 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.333548 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 363 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 1]
+[0 1 0 0 0]
+[0 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.399439 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 364 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 1]
+[0 1 0 0 0]
+[0 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.357827 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 365 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 1]
+[1 1 0 0 0]
+[0 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.37193 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 366 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 1]
+[1 1 0 0 0]
+[0 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.32439 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 367 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.363531 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 368 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 0 0]
+[1 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.332026 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 369 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.323955 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 370 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 0 0]
+[1 0 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.30481 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 371 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[0 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.350894 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 372 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.350705 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 373 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.323409 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 374 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 0 0]
+[0 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.348856 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 375 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[0 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.322379 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 376 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.334892 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 377 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 0 0]
+[1 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.307388 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 378 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[0 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.346652 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 379 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.35383 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 380 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.323206 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 381 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.347745 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 382 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.318925 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 383 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.328291 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 384 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.306442 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 385 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 0 0]
+[0 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.353153 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 386 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[0 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.321472 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 387 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.322017 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 388 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[0 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.309035 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 389 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.318354 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 390 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 0 0]
+[1 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.30645 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 391 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.30892 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 392 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 0 0]
+[1 1 0 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.287312 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 393 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 0]
+[1 0 0 1 0]
+[0 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.405983 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 394 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 0]
+[0 0 0 1 0]
+[1 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.399102 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 395 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 0]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.352472 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 396 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 0]
+[0 0 0 1 0]
+[0 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.403103 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 397 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 0]
+[1 0 0 1 0]
+[0 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.364054 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 398 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 0]
+[0 0 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.35434 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 399 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.321928 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 400 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.410651 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 401 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 0]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.404544 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 402 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 0]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.362801 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 403 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 0]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.399839 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 404 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.365934 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 405 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 0]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.352796 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 406 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 0]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.328268 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 407 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 0]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.414288 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 408 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.357428 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 409 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 0]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.368115 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 410 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 0]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.328209 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 411 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.361848 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 412 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.343136 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 413 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.329734 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 414 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.303672 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 415 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 0]
+[0 0 0 1 0]
+[0 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.394016 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 416 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 0]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.393429 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 417 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 0]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.371343 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 418 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 0]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.398785 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 419 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 0]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.350271 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 420 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 0]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.356045 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 421 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 0]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.322889 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 422 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 0]
+[0 0 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.39843 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 423 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 0]
+[0 0 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.371212 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 424 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 0]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.374295 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 425 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.342037 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 426 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.351696 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 427 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 0]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.32271 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 428 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.317612 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 429 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.313942 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 430 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 0]
+[0 1 0 1 0]
+[0 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.361265 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 431 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 0]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.345978 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 432 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 0]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.325817 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 433 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 0]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.363844 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 434 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 0]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.321564 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 435 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 0]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.321639 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 436 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 0]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[0 0 0 1 0]
+
+Won in average in: 5.300628 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 437 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 0]
+[0 1 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.352705 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 438 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.333952 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 439 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.335218 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 440 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.314937 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 441 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.336388 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 442 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.30653 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 443 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.298611 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 444 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[1 0 0 1 0]
+
+Won in average in: 5.293802 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 445 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.413518 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 446 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.40819 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 447 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.36021 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 448 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.401681 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 449 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.365705 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 450 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.362532 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 451 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.327545 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 452 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.39891 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 453 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 0 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.344989 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 454 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.365317 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 455 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.327505 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 456 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.34715 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 457 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 1]
+[0 0 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.311149 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 458 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.327648 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 459 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.301912 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 460 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.36859 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 461 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.36024 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 462 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.331327 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 463 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.370084 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 464 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.33339 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 465 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.324499 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 466 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.309031 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 467 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 1]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.374254 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 468 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.321899 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 469 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.330204 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 470 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[0 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.307612 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 471 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.337409 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 472 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.300234 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 473 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.305784 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 474 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 1 0]
+[1 0 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.282798 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 475 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[0 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.352526 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 476 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.357511 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 477 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.327032 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 478 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.352795 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 479 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.326843 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 480 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.324327 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 481 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.296324 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 482 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.35459 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 483 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.323688 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 484 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.329145 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 485 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.31379 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 486 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.33462 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 487 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 1]
+[0 0 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.299955 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 488 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.302835 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 489 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.280619 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 490 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[0 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.322243 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 491 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.324558 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 492 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.303237 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 493 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.326423 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 494 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.291642 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 495 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.302118 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 496 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[0 1 0 1 0]
+
+Won in average in: 5.29602 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 497 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.316842 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 498 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.291571 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 499 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.299872 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 500 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[0 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.279999 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 501 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.303295 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 502 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.288975 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 503 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.284177 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 504 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 1 0]
+[1 1 1 0 1]
+[1 1 0 1 0]
+
+Won in average in: 5.280346 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 505 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.402316 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 506 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.396386 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 507 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.355917 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 508 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.406077 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 509 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.347689 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 510 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 0]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.351161 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 511 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.316054 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 512 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 0]
+[0 1 0 0 1]
+[0 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.403481 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 513 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 0]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.400079 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 514 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 0]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.359179 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 515 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.404551 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 516 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.357507 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 517 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.358682 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 518 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.339599 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 519 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 0]
+[0 1 0 0 1]
+[0 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.407697 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 520 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 0]
+[0 1 0 0 1]
+[0 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.357978 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 521 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 0]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.356287 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 522 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 0]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.325033 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 523 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.351041 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 524 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.330687 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 525 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.328647 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 526 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.306051 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 527 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 0]
+[0 0 0 0 1]
+[0 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.402008 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 528 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 0]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.41028 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 529 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.363082 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 530 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 0]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.394126 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 531 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 0]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.355903 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 532 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.366436 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 533 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.326794 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 534 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 0]
+[0 0 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.41285 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 535 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 0]
+[0 0 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.359532 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 536 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 0]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.354198 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 537 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.33074 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 538 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.350712 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 539 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 0]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.325411 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 540 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.329423 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 541 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.290462 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 542 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[0 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.362351 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 543 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.357268 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 544 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.336191 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 545 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.356954 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 546 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.330766 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 547 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.33962 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 548 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.312609 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 549 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 0]
+[0 1 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.367803 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 550 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.341688 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 551 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.325037 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 552 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.315189 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 553 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.325702 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 554 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.307616 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 555 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.308461 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 556 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.297051 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 557 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.404537 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 558 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.397653 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 559 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.364722 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 560 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.399588 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 561 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.365585 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 562 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.364588 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 563 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.340824 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 564 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.393092 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 565 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.349718 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 566 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.35889 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 567 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.31596 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 568 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.362004 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 569 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.327776 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 570 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.327705 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 571 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.303101 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 572 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 1]
+[0 1 0 0 1]
+[0 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.358909 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 573 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 1]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.348603 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 574 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 1]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.319447 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 575 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.355869 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 576 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.329935 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 577 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.334528 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 578 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.305189 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 579 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 1]
+[0 1 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.352023 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 580 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 1]
+[0 1 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.32205 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 581 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 1]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.318981 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 582 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 1]
+[1 1 0 0 1]
+[0 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.292588 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 583 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.321409 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 584 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.307499 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 585 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.320004 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 586 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 0 1]
+[1 0 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.285456 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 587 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[0 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.352354 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 588 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.354234 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 589 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.327425 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 590 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.353389 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 591 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.329232 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 592 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.326928 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 593 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.309636 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 594 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.358002 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 595 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.327485 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 596 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.320723 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 597 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.30358 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 598 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.32337 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 599 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 1]
+[0 0 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.306173 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 600 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.312139 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 601 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.290328 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 602 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[0 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.334989 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 603 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.327717 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 604 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.300202 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 605 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.330922 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 606 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.29442 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 607 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.302463 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 608 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.291125 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 609 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.322304 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 610 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.308114 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 611 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.299082 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 612 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[0 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.29595 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 613 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.304447 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 614 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.285839 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 615 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.29107 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 616 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 0 1]
+[1 1 0 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.275091 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 617 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[0 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.35652 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 618 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 0]
+[0 0 0 1 1]
+[1 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.357029 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 619 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[1 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.325497 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 620 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 0]
+[0 0 0 1 1]
+[0 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.358545 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 621 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[0 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.320935 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 622 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 0]
+[0 0 0 1 1]
+[1 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.320466 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 623 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 0]
+[1 0 0 1 1]
+[1 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.305595 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 624 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[0 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.362161 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 625 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.354423 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 626 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.323947 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 627 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.355194 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 628 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.328115 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 629 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.33483 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 630 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.296033 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 631 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 0]
+[0 1 0 1 1]
+[0 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.35574 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 632 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[0 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.336656 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 633 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.318719 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 634 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.300209 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 635 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.334446 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 636 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 0]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.312131 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 637 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.311052 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 638 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 0]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.282571 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 639 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[0 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.351501 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 640 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.357684 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 641 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.337086 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 642 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.350816 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 643 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.323069 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 644 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.316781 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 645 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.303871 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 646 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.346947 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 647 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.323778 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 648 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.331121 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 649 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.313657 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 650 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.327092 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 651 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 0]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.303841 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 652 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.295345 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 653 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 0]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.286543 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 654 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[0 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.329309 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 655 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.32642 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 656 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.303887 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 657 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.3235 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 658 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.307789 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 659 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.312533 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 660 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[0 0 1 1 0]
+
+Won in average in: 5.279695 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 661 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 0]
+[0 1 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.32831 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 662 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.30499 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 663 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.309962 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 664 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.298268 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 665 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.305938 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 666 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 0]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.285495 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 667 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.283158 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 668 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 0]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[1 0 1 1 0]
+
+Won in average in: 5.283235 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 669 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.351742 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 670 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.35179 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 671 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.335728 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 672 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.355048 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 673 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.316385 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 674 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.332976 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 675 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.300671 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 676 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.353218 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 677 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.318164 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 678 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.326376 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 679 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.298673 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 680 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.325192 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 681 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 0 1]
+[0 0 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.309531 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 682 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.299643 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 683 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 0 1]
+[1 0 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.292088 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 684 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[0 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.331047 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 685 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.326293 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 686 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.296723 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 687 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.323446 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 688 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.308069 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 689 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.300591 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 690 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.294001 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 691 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 0 1]
+[0 1 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.327742 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 692 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.30243 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 693 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.311238 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 694 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[0 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.29214 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 695 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.302193 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 696 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 0 1]
+[0 1 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.293992 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 697 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.289257 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 698 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 0 1]
+[1 1 0 1 1]
+[1 0 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.285839 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 699 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[0 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.328341 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 700 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.323347 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 701 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.320514 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 702 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.319898 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 703 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.306073 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 704 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.303311 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 705 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.287762 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 706 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.328077 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 707 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.308352 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 708 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.308577 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 709 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.292573 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 710 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.310703 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 711 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.281343 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 712 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.281183 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 713 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.272632 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 714 ---
+|V| = 5 and E =
+[0 1 0 0 0]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[0 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.302876 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 715 ---
+|V| = 5 and E =
+[0 0 1 0 0]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.301636 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 716 ---
+|V| = 5 and E =
+[0 1 1 0 0]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.297107 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 717 ---
+|V| = 5 and E =
+[0 0 0 1 0]
+[0 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.299586 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 718 ---
+|V| = 5 and E =
+[0 1 0 1 0]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.286716 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 719 ---
+|V| = 5 and E =
+[0 0 1 1 0]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.296849 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 720 ---
+|V| = 5 and E =
+[0 1 1 1 0]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[0 1 1 1 0]
+
+Won in average in: 5.279881 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 721 ---
+|V| = 5 and E =
+[0 0 0 0 1]
+[0 0 1 1 1]
+[0 1 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.299252 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 722 ---
+|V| = 5 and E =
+[0 1 0 0 1]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.295716 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 723 ---
+|V| = 5 and E =
+[0 0 1 0 1]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.277627 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 724 ---
+|V| = 5 and E =
+[0 1 1 0 1]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.268752 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 725 ---
+|V| = 5 and E =
+[0 0 0 1 1]
+[0 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.283991 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 726 ---
+|V| = 5 and E =
+[0 1 0 1 1]
+[1 0 1 1 1]
+[0 1 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.278921 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 727 ---
+|V| = 5 and E =
+[0 0 1 1 1]
+[0 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.277578 guesses with RANDOM policy on 5 N_CONN
+
+--- Graph 728 ---
+|V| = 5 and E =
+[0 1 1 1 1]
+[1 0 1 1 1]
+[1 1 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+
+Won in average in: 5.258583 guesses with RANDOM policy on 5 N_CONN

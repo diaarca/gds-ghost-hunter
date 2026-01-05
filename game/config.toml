@@ -2,18 +2,18 @@
 # README.md
 
 # Number of simulations to run
-nbSimu = 100000
+nbSimu = 1000000
 
 # Policy to use for the ghost hunter (RANDOM, HIGH_DEGREE_PRIO, NEXT_VERTEX)
 policy = "RANDOM"
 
 # Execution type (SINGLE, UP_TO_SIZE, FAMILY)
-execType = "FAMILY"
+execType = "SINGLE"
 
 # Graph configuration
 [graphConfig]
 # Graph type (N_CONN, N_CYCLE, N_COMP, N_K_REGULAR, FROM_FILE)
-graphType = "N_CONN"
+graphType = "N_CYCLE"
 filename = "graphs/3_clique.txt"
 N = 4
 K = 2

@@ -3,10 +3,21 @@ import java.util.List;
 
 public class GhostHunter {
 
-    private static double randomPolicy(Game game, int nbSimu) {
+    private static class PolicyResult {
+        int totalLosses;
+        double meanGuesses;
+
+        PolicyResult(int totalLosses, double meanGuesses) {
+            this.totalLosses = totalLosses;
+            this.meanGuesses = meanGuesses;
+        }
+    }
+
+    private static PolicyResult randomPolicy(Game game, int nbSimu) {
         boolean end;
         int totalNbGuesses, guess, newGuess, nbVertices;
         totalNbGuesses = 0;
+        int totalLosses = 0;
 
         nbVertices = game.getGraph().getN();
 
@@ -14,6 +25,7 @@ public class GhostHunter {
             end = false;
             game.resetGhostPos();
             guess = newGuess = -1;
+            int count = 0;
 
             while (!end) {
                 while ((newGuess = (int)(Math.random() * nbVertices)) == guess)
@@ -21,13 +33,19 @@ public class GhostHunter {
                 end = game.play(newGuess) == -1;
                 guess = newGuess;
                 totalNbGuesses++;
+                if (count > Math.pow(nbVertices, nbVertices)) {
+                    System.out.println("Lost");
+                    totalLosses++;
+                    break;
+                }
+                count++;
             }
         }
 
-        return (double)((double)totalNbGuesses / (double)nbSimu);
+        return new PolicyResult(totalLosses, (double)totalNbGuesses / (double)nbSimu);
     }
 
-    private static double highDegreePrioPolicy(Game game, int nbSimu) {
+    private static PolicyResult highDegreePrioPolicy(Game game, int nbSimu) {
         boolean end;
         int totalNbGuesses, sumOfDegrees, guess, newGuess, nbVertices;
         double proba;
@@ -75,10 +93,11 @@ public class GhostHunter {
             }
         }
 
-        return (double)((double)totalNbGuesses / (double)nbSimu);
+        return new PolicyResult(0, (double)((double)totalNbGuesses / (double)nbSimu));
     }
 
-    private static double
+
+    private static PolicyResult
     nextVertexPolicy(Game game, int nbSimu, GraphType graphType) {
 
         switch (graphType) {
@@ -89,60 +108,69 @@ public class GhostHunter {
             System.err.println(
                 "ERROR: " + graphType +
                 "graphType isn't compatible with the NEXT_VERTEX policy");
+            System.exit(1);
             break;
         case N_CYCLE:
         default:
             break;
         }
 
-        int totalNbGuesses, currentNbGuesses, nbVertices;
-        totalNbGuesses = currentNbGuesses = 0;
+        int totalNbGuesses = 0, currentNbGuesses = 0, nbVertices;
+        int totalLosses = 0;
 
         nbVertices = game.getGraph().getN();
-
         for (int j = 0; j < nbSimu; j++) {
             currentNbGuesses = 0;
             game = new Game(game.getGraph());
-
             while (game.play(currentNbGuesses % nbVertices) != -1) {
                 currentNbGuesses++;
+                int max = (int)Math.pow(nbVertices, nbVertices);
+                // System.out.println(".(max: " + max + ")");
+                // System.out.println(".(current: " + currentNbGuesses + ")");
+                if (currentNbGuesses > max) {
+                    // System.out.println("Lost");
+                    totalLosses++;
+                    break;
+                }
             }
             totalNbGuesses += currentNbGuesses;
         }
-        return (double)((double)totalNbGuesses / (double)nbSimu);
+
+        double meanGuesses = (double) totalNbGuesses / (double) nbSimu;
+        return new PolicyResult(totalLosses, meanGuesses);
     }
 
-    private static double singleExecution(ExecConfig config, Graph graph) {
+    private static PolicyResult singleExecution(ExecConfig config, Graph graph) {
 
         GraphType graphType = config.getGraphConfig_().getGraphType_();
-
-        double meanTime = -1.0;
+        PolicyResult result = null;  // Store the result here
+        
         System.out.println(graph);
 
         Game game = new Game(graph);
 
         switch (config.getPolicy_()) {
         case RANDOM:
-            meanTime = randomPolicy(game, config.getNbSimu_());
+            result = randomPolicy(game, config.getNbSimu_());
             break;
         case NEXT_VERTEX:
-            meanTime = nextVertexPolicy(game, config.getNbSimu_(), graphType);
+            result = nextVertexPolicy(game, config.getNbSimu_(), graphType);
             break;
         case HIGH_DEGREE_PRIO:
-            meanTime = highDegreePrioPolicy(game, config.getNbSimu_());
+            result = highDegreePrioPolicy(game, config.getNbSimu_());
             break;
         default:
             System.err.println("ERROR: wrong policy entered: " +
-                               config.getPolicy_());
+                            config.getPolicy_());
             System.err.println(
                 "ERROR: Only RANDOM and NEXT_VERTEX are handled");
             System.exit(1);
         }
 
-        return meanTime;
+        return result;  // Return the single result
     }
 
-    private static void upToSizeExecution(ExecConfig config) {
+    private static int upToSizeExecution(ExecConfig config) {
 
         GraphConfig graphConfig = config.getGraphConfig_();
 
@@ -164,6 +192,7 @@ public class GhostHunter {
         }
 
         double sumOfMeanTime = 0;
+        int loss = 0;
 
         for (int n = 3; n <= graphConfig.getN_(); n++) {
 
@@ -177,7 +206,9 @@ public class GhostHunter {
 
             Graph graph = new Graph(newExecConfig.getGraphConfig_());
 
-            double meanTime = singleExecution(newExecConfig, graph);
+            PolicyResult result = singleExecution(newExecConfig, graph);
+            double meanTime = result.meanGuesses;
+            loss += result.totalLosses;  
             sumOfMeanTime += meanTime;
 
             System.out.println("Won in average in: " + meanTime +
@@ -191,9 +222,10 @@ public class GhostHunter {
             " guesses with " + config.getPolicy_() + " policy over all " +
             graphConfig.getGraphType_() +
             " graphs of the UP_TO_SIZE execution");
+        return loss;
     }
 
-    private static void familyExecution(ExecConfig config) {
+    private static int familyExecution(ExecConfig config) {
         GraphConfig gC = config.getGraphConfig_();
 
         List<Graph> graphFamily = Graph.generateGraphFamily(gC);
@@ -204,13 +236,15 @@ public class GhostHunter {
         int graphIndex = 1;
 
         double sumOfMeanTime = 0;
+        int loss = 0;
 
         for (Graph graph : graphFamily) {
             System.out.println("--- Graph " + graphIndex++ + " ---");
             GraphType graphType = gC.getGraphType_();
-            double meanTime = singleExecution(config, graph);
+            PolicyResult result = singleExecution(config, graph);
+            double meanTime = result.meanGuesses;
+            loss += result.totalLosses;  
             sumOfMeanTime += meanTime;
-
             switch (graphType) {
             case N_K_REGULAR:
                 System.out.println("Won in average in: " + meanTime +
@@ -233,11 +267,22 @@ public class GhostHunter {
             "\nWon in average: " + (sumOfMeanTime / graphFamily.size()) +
             " guesses with " + config.getPolicy_() + " policy over all " +
             gC.getGraphType_() + " graphs of the FAMILY execution");
+        return loss;
+    }
+    private static void getLossStatistics(int totalLosses, int totalSimulations) {
+        System.out.println(
+            "\n--- LOSS STATISTICS ---\n" + 
+            "Total losses: " + totalLosses + "\n" +
+            "Total wins: " + (totalSimulations - totalLosses) + "\n" +
+            "Win rate: " + 
+            ((double)(totalSimulations - totalLosses) / (double)totalSimulations * 100) + " %\n");
+
     }
 
     public static void main(String[] args) {
 
         ExecConfig execConfig = null;
+        int loss = 0;
 
         // Load the configuration
         execConfig = new ExecConfig(args[0]);
@@ -246,15 +291,27 @@ public class GhostHunter {
         switch (execConfig.getExecType_()) {
         case SINGLE:
             Graph graph = new Graph(execConfig.getGraphConfig_());
-            System.out.println(
-                "Won in average in: " + singleExecution(execConfig, graph) +
-                " guesses\n");
+            PolicyResult result = singleExecution(execConfig, graph);
+            if (result.totalLosses > 0) {
+                getLossStatistics(result.totalLosses, execConfig.getNbSimu_());
+            } 
+            else {
+                System.out.println(
+                    "Won in average in: " + result.meanGuesses +
+                    " guesses\n");
+            }
             break;
         case UP_TO_SIZE:
-            upToSizeExecution(execConfig);
+            loss = upToSizeExecution(execConfig);
+            if (loss > 0) {
+                getLossStatistics(loss,execConfig.getNbSimu_());
+            }
             break;
         case FAMILY:
-            familyExecution(execConfig);
+            loss = familyExecution(execConfig);
+            if (loss > 0) {
+                getLossStatistics(loss,execConfig.getNbSimu_());
+            }
             break;
         default:
             System.err.println("ERROR: wrong execution type entered: " +

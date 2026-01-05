@@ -1,0 +1,48 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.example:GhostHunter[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding GhostHunter 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.1.0:java[m [1m(default-cli)[m @ [36mGhostHunter[0;1m ---[m
+Executing on a family of 4 graphs.
+--- Graph 1 ---
+|V| = 3 and E =
+[0 1 1]
+[1 0 0]
+[1 0 0]
+
+Won in average in: 1.668155 guesses with NEXT_VERTEX policy on 3 N_CONN
+
+--- Graph 2 ---
+|V| = 3 and E =
+[0 1 0]
+[1 0 1]
+[0 1 0]
+
+Won in average in: 1.499858 guesses with NEXT_VERTEX policy on 3 N_CONN
+
+--- Graph 3 ---
+|V| = 3 and E =
+[0 0 1]
+[0 0 1]
+[1 1 0]
+
+Won in average in: 2.00202 guesses with NEXT_VERTEX policy on 3 N_CONN
+
+--- Graph 4 ---
+|V| = 3 and E =
+[0 1 1]
+[1 0 1]
+[1 1 0]
+
+Won in average in: 2.001453 guesses with NEXT_VERTEX policy on 3 N_CONN
+
+
+Won in average: 1.7928715 guesses with NEXT_VERTEX policy over all N_CONN graphs of the FAMILY execution
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.819 s
+[[1;34mINFO[m] Finished at: 2026-01-05T19:54:18+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
