@@ -34,7 +34,7 @@ public class GhostHunter {
                 guess = newGuess;
                 totalNbGuesses++;
                 if (count > Math.pow(nbVertices, nbVertices)) {
-                    System.out.println("Lost");
+                    // System.out.println("Lost");
                     totalLosses++;
                     break;
                 }
@@ -211,17 +211,20 @@ public class GhostHunter {
             loss += result.totalLosses;  
             sumOfMeanTime += meanTime;
 
-            System.out.println("Won in average in: " + meanTime +
-                               " guesses with " + config.getPolicy_() +
-                               " policy on " + n + " " +
-                               graphConfig.getGraphType_() + "\n");
+            if (loss == 0) {
+                System.out.println("Won in average in: " + meanTime +
+                                   " guesses with " + config.getPolicy_() +
+                                   " policy on " + n + " " +
+                                   graphConfig.getGraphType_() + "\n");
+            }
         }
-
-        System.out.println(
-            "\nWon in average: " + (sumOfMeanTime / (graphConfig.getN_() - 2)) +
-            " guesses with " + config.getPolicy_() + " policy over all " +
-            graphConfig.getGraphType_() +
-            " graphs of the UP_TO_SIZE execution");
+        if (loss == 0) {
+            System.out.println(
+                "\nWon in average: " + (sumOfMeanTime / (graphConfig.getN_() - 2)) +
+                " guesses with " + config.getPolicy_() + " policy over all " +
+                graphConfig.getGraphType_() +
+                " graphs of the UP_TO_SIZE execution");
+        }
         return loss;
     }
 
@@ -247,26 +250,32 @@ public class GhostHunter {
             sumOfMeanTime += meanTime;
             switch (graphType) {
             case N_K_REGULAR:
-                System.out.println("Won in average in: " + meanTime +
-                                   " guesses with " + config.getPolicy_() +
-                                   " policy on " + gC.getN_() + "," +
-                                   gC.getK_() + " " + graphType + "\n");
+
+                if (loss == 0) {
+                    System.out.println("Won in average in: " + meanTime +
+                                       " guesses with " + config.getPolicy_() +
+                                       " policy on " + gC.getN_() + "," +
+                                       gC.getK_() + " " + graphType + "\n");
+                }
                 break;
             case N_CONN:
-                System.out.println("Won in average in: " + meanTime +
-                                   " guesses with " + config.getPolicy_() +
-                                   " policy on " + gC.getN_() + " " +
-                                   graphType + "\n");
+                if (loss == 0) {
+                    System.out.println("Won in average in: " + meanTime +
+                                       " guesses with " + config.getPolicy_() +
+                                       " policy on " + gC.getN_() + " " +
+                                       graphType + "\n");
+                }
                 break;
             default:
                 break;
             }
         }
-
-        System.out.println(
+        if (loss == 0) {
+            System.out.println(
             "\nWon in average: " + (sumOfMeanTime / graphFamily.size()) +
             " guesses with " + config.getPolicy_() + " policy over all " +
             gC.getGraphType_() + " graphs of the FAMILY execution");
+        }
         return loss;
     }
     private static void getLossStatistics(int totalLosses, int totalSimulations) {
