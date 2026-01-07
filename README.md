@@ -13,6 +13,31 @@ The hunter wins if he has a strategy to catch the ghost in a finite number of ro
 
 This java implementation aims to simulate the `Ghost Hunter` game with multiple parameters. The goal is to allow anyone to confirm conjectures and observations on graphs (be aware, this not a tool to prove). In any case, the framework will give you the average number of round needed in order to finish a game for each experiment graph.
 
+## Usage
+0. Requirements:
+- java-17
+- maven
+
+1. Clone this git repository:
+```bash
+git clone git@github.com:diaarca/ghost-hunter.git
+```
+
+2. Navigate to the project directory :
+```bash
+cd baby-tetris
+```
+
+3. Build the project :
+```bash
+mvn compile
+```
+
+4. Run the simulator :
+```bash
+./run.sh <config-path>
+```
+
 ## Simulator Configuration
 In order to configure your execution, you have a `config.toml` file as a configuration template. In this file you will find the following parameters:
 
@@ -74,28 +99,3 @@ There is a 7_CYCLE described in a file:
 5. `filename`: the path the file from which you want to load the graph (works with any `graphType` but ignored if != "FROM_FILE")
 6. `N`: the number of vertices (positive) of the graph you want to construct, or if used with `execType` = "UP_TO_SIZE" correspond to the maximum constructed graph size (works with any `graphType` but ignored if = "FROM_FILE")
 7. `K`: the second parameter (positive) for graph construction (works with any `graphType` but ignored if != "N_K_REGULAR")
-
-## Usage
-0. Requirements:
-- java-17
-- maven
-
-1. Clone this git repository:
-```bash
-git clone git@github.com:diaarca/ghost-hunter.git
-```
-
-2. Navigate to the project directory :
-```bash
-cd baby-tetris
-```
-
-3. Build the project :
-```bash
-mvn compile
-```
-
-4. Run the simulator :
-```bash
-./run.sh <config-path>
-```
