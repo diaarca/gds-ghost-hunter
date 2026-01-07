@@ -8,12 +8,12 @@ nbSimu = 100000
 policy = "NEXT_VERTEX"
 
 # Execution type (SINGLE, UP_TO_SIZE, FAMILY)
-execType = "FAMILY"
+execType = "SINGLE"
 
 # Graph configuration
 [graphConfig]
 # Graph type (N_CONN, N_CYCLE, N_COMP, N_K_REGULAR, FROM_FILE)
-graphType = "N_CONN"
+graphType = "N_COMP"
 filename = "graphs/3_clique.txt"
-N = 3
+N = 4
 K = 2
